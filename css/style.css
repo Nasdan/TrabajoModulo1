@@ -1,3 +1,18 @@
+/*En este comentario vamos a poner los colores que vamos a utilizar
+	body: ;
+	header: ;
+	p: ;
+	letra p: ;
+	botones: ;
+	botones:hover: ;
+	letra botones:;
+	.
+	.
+	.
+	etc
+
+	Esta parte esta aun en proceso, se definira en la pestaña inicio
+*/
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
 	margin: 0;
 	padding: 0;
@@ -13,6 +28,8 @@ body{
 	background-color: blue;
 }
 
+/*Estilo Cabecera y Pestaña Inicio:
+	Encargado: Dani*/
 header{
 	position: relative;
 	width: 100%;
@@ -70,7 +87,7 @@ article{
 	margin: 10px 10px 5px 5px;
 }
 
-#articulo1{
+article#articleInicio1{
 	position: absolute;
 	display: inline-block;
 	max-width: 66%;
@@ -85,7 +102,7 @@ img{
 	max-height: 10%;
 }
 
-#articulo2{
+article#articleInicio2{
 	margin: 10px 10px;
 	background-color: white;
 }
@@ -98,3 +115,30 @@ footer{
 	margin: 10px 10px;
 	background-color: white
 }
+
+/*Estilo Pestaña Docencia y Empresas:
+	Encargado: Fran
+
+	Condiciones: Se respetara el estilo de la
+		pagina de inicio en cuanto a color, bordes redondeados, etc
+		lo que si se va a modificar es la posición y el tamaño del 
+		elemento. Recordar dar el tamaño con valores en %
+		Por tanto si en la pagina de inicio esta definido el 
+		elemento article deberas ponerle un id, cuya notación será
+		"elemento"+"nombre pestaña"+n, a tu article (en el HTML) y modificar 
+		su estilo como en el ejemplo:
+		
+		article#articleDocencia1{
+			position: relative;
+			left: 0;
+			width: 50px;
+			height: auto;
+		}
+
+		Por otro lado si se necesita un estilo en concreto, como
+		es el caso en la pestaña empresas que al hacer un hover
+		sobre las imagenes realiza un efecto, se modificara
+		las propiedades necesarias.*/
+
+/*Estilo Pestaña Empleo, Opiniones y Media:
+	Encargado: Rosana*/
