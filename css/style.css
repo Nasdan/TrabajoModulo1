@@ -139,6 +139,32 @@ footer{
 		es el caso en la pestaña empresas que al hacer un hover
 		sobre las imagenes realiza un efecto, se modificara
 		las propiedades necesarias.*/
+table, table.fullTable
+{
+    width: 60%;
+    margin: left;
+    background-color: rgba(0,0,0, 0.2);
+    text-align: left;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    padding: 8px;
+}	
+
+th
+{
+   /* color: #b4debb;*/
+   text-align: center;
+}	
+.docencia2{
+	position: absolute;
+	width: 35%;
+	margin: right;
+	text-align: right;
+	/*display: block;*/
+
+}
+
 
 /*Estilo Pestaña Empleo, Opiniones y Media:
 	Encargado: Rosana*/
