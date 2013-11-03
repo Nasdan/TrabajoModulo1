@@ -116,6 +116,7 @@ footer{
 	background-color: white
 }
 
+<<<<<<< HEAD
 /*Estilo Pestaña Docencia y Empresas:
 	Encargado: Fran
 
@@ -168,3 +169,127 @@ th
 
 /*Estilo Pestaña Empleo, Opiniones y Media:
 	Encargado: Rosana*/
+=======
+/** Two colums: left wide, rigth narrow **/
+.ltcol_wide {
+	float:left; 
+	width: 810px; 
+}
+
+.rtcol_narrow { 
+	float:left; 
+	width: 300px;
+	padding-left:20px ;
+}
+
+/** Two colums: left narrow, rigth wide **/
+.ltcol_narrow {
+	float:left; 
+	width: 310px; 
+}
+
+.rtcol_wide { 
+	float:left; 
+	width: 700px;
+}
+
+.columms_container { width:1120px; }
+
+/** Three columns **/
+.ltcol, .ctcol, .rtcol { 
+	margin:10px 10px; 
+	padding:10px; 
+}
+.ltcol { 
+	float:left; 
+	width: 480px; 
+	margin-left:20px;
+	background-color: #90CA77 ;
+}
+.ctcol { 
+	float:left; 
+	width: 230px;
+	background-color: #81C6DD ;
+}
+.rtcol { 
+	float:left; 
+	width: 230px;
+	background-color: #E9B64D ;
+}
+
+/***** GRID *****/
+
+/*FRAN*/
+
+#col_izda section{
+        position: relative;
+        width: 65%;
+        margin: 40px 20px 10px 10px;
+        vertical-align: top;
+}
+
+#col_dcha section{
+        position: relative;
+        width: 35%;
+        vertical-align: top;
+        /*padding-bottom: 15px;*/
+        vertical-align: bottom;
+}
+/*
+#articleInicio1{
+                position: relative;
+                max-width: 94%;
+                margin: 20px 20px;
+                vertical-align: top;
+}*/
+
+/*#infodocente section ul{
+        
+        padding: 0 20px;
+}*/
+
+/* CSS IMAGENES EMPRESAS */
+
+.imgRow {
+        float: none;
+        width: 100% ;
+}
+img.gridImg {
+
+        float: inherit;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 32%;
+        -webkit-transition: transform .25s ease;
+        transition: transform .25s ease;
+}
+
+img.gridImg:hover {
+        background-color: white ;
+        -webkit-transform: scale(1.70) ;
+        transform: scale(1.70) ;
+}
+/*
+.col_dcha {
+        float: inherit; 
+        width: auto; 
+        padding-right:20px;
+        position: relative;
+        width: 35%;
+        vertical-align: top;
+        padding-bottom: 15px;
+        vertical-align: bottom;
+}
+*/
+
+/*
+.col_izda { 
+        float: inherit; 
+        width: auto;
+        padding-left:20px ;
+        position: relative;
+        width: 65%;
+        margin: 40px 20px 10px 10px;
+        vertical-align: top;
+}*/
+>>>>>>> fran
