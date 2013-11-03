@@ -235,6 +235,46 @@ footer{
 	font-size: 12px;
 }
 
+/***************FRAN******************/
+#articleDocencia1{
+	margin: 0px 20px;
+	padding-bottom: 20px;
+}
+
+#col_izda{
+    position: relative;
+    padding: 0;
+    width: 60%;
+    vertical-align: top;
+}
+
+#col_dcha{
+    position: relative;
+    width: 20%;
+    vertical-align: top;
+}
+
+.imgRow {
+    float: none;
+    width: 100% ;
+}
+
+img.gridImg {
+
+        float: inherit;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 32%;
+        -webkit-transition: transform .25s ease;
+        transition: transform .25s ease;
+}
+
+img.gridImg:hover {
+        background-color: white ;
+        -webkit-transform: scale(1.70) ;
+        transform: scale(1.70) ;
+}
+
 /***************ROSANA****************/
 /*EMPLEO*/
 
@@ -309,10 +349,6 @@ tr:nth-child(even)
 }
 
 /*MEDIA*/
-/*Imagenes del folleto del master*/
-/*Izquierda --> Portada*/
-/*Derecha arriba -->Anverso*/
-/*Derecha abajo --> Reverso*/
 #articleMedia1{
 	margin: 0px 20px;
 }
@@ -383,6 +419,15 @@ tr:nth-child(even)
 
 	#articleInicio1{
 		max-width: 50%;
+	}
+
+	/*FRAN*/
+	#col_izda{
+	    width: 100%;
+	}
+
+	#col_dcha{
+	    width: 80%;
 	}
 }
 
