@@ -1,0 +1,13 @@
+diff a/css/style.css b/css/style.css	(rejected hunks)
+@@ -71,9 +71,9 @@
+ #main{
+ 	position: relative;
+ 	max-width: 1000px;
+-	height: 2000px;
++	height: 5000px;
+ 	margin: 0 auto;
+-	background-color: red;
++	background-color: white;
+ }
+ 
+ aside{
